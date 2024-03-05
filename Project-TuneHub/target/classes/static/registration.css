@@ -1,0 +1,28 @@
+body{
+	background-color: grey
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    height: 95vh;
+}
+
+.container h2 {
+    margin-bottom: 20px; /* Add space between the title and the form */
+}
+
+.container form {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

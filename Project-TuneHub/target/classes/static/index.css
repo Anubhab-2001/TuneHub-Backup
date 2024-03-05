@@ -1,0 +1,41 @@
+body{
+	background-color:orange; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Optional: Add some space between buttons */
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.container a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #333; /* Border width, style, and color */
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-decoration: none;
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Optional: Add some space between buttons */
+}
+
+.container a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
